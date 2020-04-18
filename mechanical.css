@@ -20,6 +20,16 @@ a:hover {
     margin-bottom: 2%;
 }
 
+.suspension {
+    width: 50%;
+}
+.plant {
+    width: 100%;
+}
+.digging {
+    width: 80%;
+}
+
 .rounded-icons {
     text-align: center;
     margin: 50px;
@@ -79,5 +89,38 @@ a:hover {
 {
     .h {
         font-size: 40px;
+    }
+    .digging {
+        width: 60%;
+    }
+    .chassis {
+        width: 65%;
+    }
+
+}
+
+@media(max-width : 750px)
+{
+    .suspension {
+        width: 30%;
+    }
+    .plant {
+        width: 75%;
+    }
+    .digging {
+        width: 70%;
+    }
+    .chassis {
+        width: 70%;
+    }
+    .wheel {
+        width: 60%;
+    }
+}
+
+@media(max-width : 1300px)
+{
+    .chassis {
+        width: 100%;
     }
 }
