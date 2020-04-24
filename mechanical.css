@@ -5,12 +5,13 @@
 }
 
 a{
-    color: blanchedalmond;
+    color: darkblue;
 }
 
-a:hover {
+
+/* a:hover {
     color: cadetblue;
-}
+} */
 
 .txt {
     font-size: 25px;
