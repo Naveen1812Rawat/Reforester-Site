@@ -108,6 +108,9 @@ a{
     .chassis {
         width: 65%;
     }
+    .txt {
+        font-size: 20px;
+    }
 
 }
 
