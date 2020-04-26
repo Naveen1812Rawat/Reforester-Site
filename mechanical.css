@@ -22,17 +22,24 @@ a{
 }
 
 .suspension {
-    width: 50%;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    margin-bottom: 5%;
 }
 .plant {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 .digging {
     margin-left: auto;
     margin-right: auto;
     display: inline-block;
     width: 80%;
-    margin-top: 15%;
+    margin-top: 5%;
     margin-left: 5%;
 }
 .chassis {
@@ -99,6 +106,11 @@ a{
 
 @media(max-width : 600.98px)
 {
+    .suspension {
+        margin-bottom: 0%;
+        width: 50%;
+    }
+    
     .h {
         font-size: 40px;
     }
@@ -118,6 +130,7 @@ a{
 {
     .suspension {
         width: 30%;
+        margin-bottom: 0%;
     }
     .plant {
         width: 75%;
