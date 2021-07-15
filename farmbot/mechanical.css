@@ -294,7 +294,7 @@ body
     }
 
     .sub-img-box{
-        width: 100%;
+        width: 70%;
         padding: 7%;
         display: grid;
         align-items: center;
@@ -333,6 +333,12 @@ body
         width: 600px;
 
     }
+    
+    .sub-img-box img{
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    
 }
 
 @media (max-width: 819px) and (min-width: 699px)
